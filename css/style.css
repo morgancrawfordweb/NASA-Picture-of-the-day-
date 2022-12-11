@@ -12,11 +12,15 @@
 /*******************************************/
 
 body{
-  background-color: lightslategray;
+  background:repeating-linear-gradient(180deg,rgb(151, 144, 88),rgb(149, 104, 41),rgb(151, 144, 88));
+
+  height: 100%;
+  width: 100%;
+  color: antiquewhite;
 }
 
 img{
-  width: 75%;
+  width: 20rem;
   display: block;
   margin: 0 auto;
 }
@@ -32,17 +36,20 @@ h1{
   width: 100%;
   display: flex;
   justify-content: center;
+  color: black;
 }
 span{
   width: 100%;
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 h2{
   display: flex;
   justify-content: center;
   width: 100%;
+  color: black;
 }
 
 h3{
@@ -56,18 +63,41 @@ p{
 }
 
 button{
- margin: 0 45%;
- color: lightblue;
+ margin: auto;
+ color: rgb(131, 194, 215);
  background-color: black;
  border-radius: 10%;
  width: 130px;
  height: 50px;
+ display: flexbox;
+ justify-self: center;
+
+
 }
 
 #buttonDiv{
   padding: 2%;
   display: flex;
   justify-content: center;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+li{
+  padding: 10px;
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+ul{
+  margin: 0;
+  padding: 0%;
+  text-align: center;
 }
 
 
